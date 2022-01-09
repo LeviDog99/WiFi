@@ -25,6 +25,8 @@ namespace WiFi {
     //% block
     export function internet(n: number, s: string, e: MyEnum): void {
         // Add code here
+        basic.showString("| |")
+        basic.showIcon(IconNames.Yes)
     }
 
     /**
